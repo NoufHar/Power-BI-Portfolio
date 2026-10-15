@@ -1,37 +1,38 @@
-# Competitor Sales Analysis
+# HR Analytics
 
-A two-page Power BI report comparing revenue performance by manufacturer, country, category, product, and time.
+A four-page Power BI report exploring workforce size, demographics, employee performance, and attrition.
 
 ## Dashboard preview
-![Sales dashboard](./screenshots/sales-overview.png)
+![HR Overview](./screenshots/overview.png)
 
 ## Business questions
-How much revenue was generated? How has performance changed relative to the previous year? Which categories, locations, and products contribute most to sales?
+How is the workforce distributed? Which employee groups have higher attrition? How do satisfaction and performance measures evolve over time?
 
 ## Report pages
 | Page | Focus | Screenshot |
 |---|---|---|
-| Competitor Sales Analysis | Revenue, growth, market share, country/manufacturer comparisons | [View](./screenshots/sales-overview.png) |
-| Advanced Insights | Decomposition Tree, Key Influencers and category/segment drilldowns | [View](./screenshots/advanced-insights.png) |
+| Overview | Workforce KPIs, hiring trends, active staff by department and job role | [View](./screenshots/overview.png) |
+| Demographics | Age, gender, marital status, ethnicity and salary comparisons | [View](./screenshots/demographics.png) |
+| Performance Tracker | Employee-level satisfaction, work-life balance and rating trends | [View](./screenshots/performance-tracker.png) |
+| Attrition | Attrition by role, business travel, overtime and tenure | [View](./screenshots/attrition.png) |
 
 ## Key observations from the exported report
-- **Total revenue: $362.89M**.
-- **Prior-year sales: $229.99M**, with **57.79% growth** displayed.
-- **947K units** are reported on the Advanced Insights page.
-- **Sintec market share: 19.63%** under the report's visible selection.
-- The **Urban** category contributes approximately **$280.03M**, the largest category in the decomposition tree.
-- The country/manufacturer comparison shows the **USA** as a leading revenue market in the displayed view.
-- The Key Influencers visual identifies specific products associated with increased average revenue; these are model-generated associations, not proof of causal impact.
+- **1,346 total employees**, including **1,128 active** and **218 inactive** employees.
+- The displayed **attrition rate is 16.2%**.
+- **Technology** has the largest number of active employees in the department comparison.
+- The **20–29** age group is the largest age bracket shown.
+- The charts suggest **higher attrition among employees who work overtime** and **frequent business travelers** than their respective comparison groups.
+- The attrition-by-tenure chart shows relatively elevated rates among employees in their earliest years.
 
 ## Business recommendations
-- Explore the Urban category's strongest segments and products to understand its revenue contribution.
-- Compare revenue growth and market share across manufacturers and countries to identify competitive opportunities.
-- Use the Decomposition Tree and Key Influencers as starting points for deeper investigation, then validate findings with underlying data.
+- Investigate overtime workload and frequent travel as possible retention risk indicators; these charts show associations, **not causation**.
+- Prioritize retention analysis for early-tenure employees and roles with elevated attrition.
+- Track satisfaction and manager ratings over time to identify areas for follow-up.
 
 ## Tools & features
-Power BI · DAX · KPI cards · Matrix visuals · Interactive filters · Decomposition Tree · Key Influencers
+Power BI · DAX · Interactive filters · KPI cards · Time-series charts · Treemaps · Employee performance tracking
 
 ## Original report
-[Open the Power BI file](./Competitor%20Sales%20Analysis.pbix) in Power BI Desktop.
+[Open the Power BI file](./HR%20Analytics.pbix) in Power BI Desktop.
 
-> Figures reflect the supplied PDF export and may be affected by filters and selected dates. Verify dataset redistribution rights before publication.
+> The performance screenshot has the displayed employee name redacted for portfolio sharing. Review the PBIX data for confidentiality and redistribution permissions before publishing.
