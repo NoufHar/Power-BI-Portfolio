@@ -1,26 +1,37 @@
-# Power BI Portfolio
+# Competitor Sales Analysis
 
-Two Power BI projects showcasing interactive reporting, KPI analysis, and business-oriented data visualization.
+A two-page Power BI report comparing revenue performance by manufacturer, country, category, product, and time.
 
-## Projects
+## Dashboard preview
+![Sales dashboard](./screenshots/sales-overview.png)
 
-| Project | Dashboard preview | Focus |
+## Business questions
+How much revenue was generated? How has performance changed relative to the previous year? Which categories, locations, and products contribute most to sales?
+
+## Report pages
+| Page | Focus | Screenshot |
 |---|---|---|
-| [HR Analytics](./HR-Analytics/) | [View dashboard](./HR-Analytics/screenshots/overview.png) | Workforce, attrition, demographics, performance |
-| [Competitor Sales Analysis](./Competitor-Sales-Analysis/) | [View dashboard](./Competitor-Sales-Analysis/screenshots/sales-overview.png) | Revenue, growth, competitor and market analysis |
+| Competitor Sales Analysis | Revenue, growth, market share, country/manufacturer comparisons | [View](./screenshots/sales-overview.png) |
+| Advanced Insights | Decomposition Tree, Key Influencers and category/segment drilldowns | [View](./screenshots/advanced-insights.png) |
 
-## Dashboard previews
+## Key observations from the exported report
+- **Total revenue: $362.89M**.
+- **Prior-year sales: $229.99M**, with **57.79% growth** displayed.
+- **947K units** are reported on the Advanced Insights page.
+- **Sintec market share: 19.63%** under the report's visible selection.
+- The **Urban** category contributes approximately **$280.03M**, the largest category in the decomposition tree.
+- The country/manufacturer comparison shows the **USA** as a leading revenue market in the displayed view.
+- The Key Influencers visual identifies specific products associated with increased average revenue; these are model-generated associations, not proof of causal impact.
 
-### HR Analytics
-![HR Analytics dashboard](./HR-Analytics/screenshots/overview.png)
+## Business recommendations
+- Explore the Urban category's strongest segments and products to understand its revenue contribution.
+- Compare revenue growth and market share across manufacturers and countries to identify competitive opportunities.
+- Use the Decomposition Tree and Key Influencers as starting points for deeper investigation, then validate findings with underlying data.
 
-### Competitor Sales Analysis
-![Competitor Sales dashboard](./Competitor-Sales-Analysis/screenshots/sales-overview.png)
+## Tools & features
+Power BI · DAX · KPI cards · Matrix visuals · Interactive filters · Decomposition Tree · Key Influencers
 
-## Tools & skills
-Microsoft Power BI · DAX · KPI reporting · Data visualization · Interactive filtering · Decomposition Tree · Key Influencers
+## Original report
+[Open the Power BI file](./Competitor%20Sales%20Analysis.pbix) in Power BI Desktop.
 
-## Explore
-Open either project folder for screenshots, observations and the original `.pbix` report. Power BI Desktop is required to open `.pbix` files.
-
-> **Data note:** The observations below reflect the values visible in the supplied PDF exports and may depend on the report's active filters. Dataset provenance and permission to redistribute data should be confirmed before making this repository public.
+> Figures reflect the supplied PDF export and may be affected by filters and selected dates. Verify dataset redistribution rights before publication.
