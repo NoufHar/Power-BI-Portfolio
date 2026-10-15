@@ -1,0 +1,4 @@
+*.pbit.cache
+*.tmp
+.DS_Store
+Thumbs.db
